@@ -1,0 +1,32 @@
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: black;
+  padding: 1em;
+}
+.header ul li a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 400px;
+  background-color: beige;
+}
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: aqua;
+  text-align: center;
+  line-height: 60px;
+}/*# sourceMappingURL=main.css.map */

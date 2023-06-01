@@ -1,0 +1,49 @@
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: black;
+  padding: 1em;
+}
+.header ul li a {
+  color: white;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul li {
+  background-color: rgb(203, 15, 31);
+  padding: 1em;
+}
+.footer ul li a {
+  color: rgb(220, 72, 13);
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 400px;
+  background-color: beige;
+}
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(110, 24, 231);
+  text-align: center;
+  line-height: 60px;
+}/*# sourceMappingURL=main.css.map */
